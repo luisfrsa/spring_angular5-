@@ -20,7 +20,14 @@ public class Task {
     private LocalDate dueDate;
     private Boolean completed;
 
-    public Task () {
+  public Task () {
 
     }
+/*
+    public Task(Long id, String name, LocalDate dueDate, Boolean completed) {
+        this.id = id;
+        this.name = name;
+        this.dueDate = dueDate;
+        this.completed = completed;
+    }*/
 }
